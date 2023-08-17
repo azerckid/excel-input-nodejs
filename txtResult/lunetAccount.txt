@@ -1,0 +1,398 @@
+[
+  {
+    "Account": "00000003",
+    "AccountName": "아고다",
+    "TotalRevenue": 34108488,
+    "RoomRevenue": {
+      "FIT": 31007692,
+      "Group": 0
+    },
+    "ADR": 67116,
+    "Rooms": {
+      "Nights": 462,
+      "NoShow": 0,
+      "Cancel": 127,
+      "Booking": 349
+    },
+    "Guests": 837,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 3100796
+  },
+  {
+    "Account": "00000004",
+    "AccountName": "부킹닷컴",
+    "TotalRevenue": 21415460,
+    "RoomRevenue": {
+      "FIT": 19468602,
+      "Group": 0
+    },
+    "ADR": 72106,
+    "Rooms": {
+      "Nights": 270,
+      "NoShow": 0,
+      "Cancel": 25,
+      "Booking": 67
+    },
+    "Guests": 452,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 1946858
+  },
+  {
+    "Account": "00000002",
+    "AccountName": "익스피디아",
+    "TotalRevenue": 12276490,
+    "RoomRevenue": {
+      "FIT": 11160444,
+      "Group": 0
+    },
+    "ADR": 66038,
+    "Rooms": {
+      "Nights": 169,
+      "NoShow": 0,
+      "Cancel": 50,
+      "Booking": 86
+    },
+    "Guests": 257,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 1116046
+  },
+  {
+    "Account": "00009006",
+    "AccountName": "대우에스티(장기)",
+    "TotalRevenue": 10500000,
+    "RoomRevenue": {
+      "FIT": 0,
+      "Group": 9545445
+    },
+    "ADR": 14663,
+    "Rooms": {
+      "Nights": 651,
+      "NoShow": 0,
+      "Cancel": 0,
+      "Booking": 1
+    },
+    "Guests": 651,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 954555
+  },
+  {
+    "Account": "00009005",
+    "AccountName": "호텔파이종로(장기)",
+    "TotalRevenue": 9232500,
+    "RoomRevenue": {
+      "FIT": 8393150,
+      "Group": 0
+    },
+    "ADR": 21576,
+    "Rooms": {
+      "Nights": 389,
+      "NoShow": 0,
+      "Cancel": 0,
+      "Booking": 3
+    },
+    "Guests": 430,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 839350
+  },
+  {
+    "Account": "00010059",
+    "AccountName": "뛰놀자",
+    "TotalRevenue": 5890000,
+    "RoomRevenue": {
+      "FIT": 5354550,
+      "Group": 0
+    },
+    "ADR": 48239,
+    "Rooms": {
+      "Nights": 111,
+      "NoShow": 0,
+      "Cancel": 12,
+      "Booking": 73
+    },
+    "Guests": 132,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 535450
+  },
+  {
+    "Account": "00000005",
+    "AccountName": "호텔나우",
+    "TotalRevenue": 5585400,
+    "RoomRevenue": {
+      "FIT": 5077639,
+      "Group": 0
+    },
+    "ADR": 65098,
+    "Rooms": {
+      "Nights": 78,
+      "NoShow": 0,
+      "Cancel": 25,
+      "Booking": 87
+    },
+    "Guests": 152,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 507761
+  },
+  {
+    "Account": "00000010",
+    "AccountName": "씨트립",
+    "TotalRevenue": 5364944,
+    "RoomRevenue": {
+      "FIT": 4877219,
+      "Group": 0
+    },
+    "ADR": 66811,
+    "Rooms": {
+      "Nights": 73,
+      "NoShow": 0,
+      "Cancel": 13,
+      "Booking": 44
+    },
+    "Guests": 136,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 487725
+  },
+  {
+    "Account": "00000001",
+    "AccountName": "호텔파이종로",
+    "TotalRevenue": 4546000,
+    "RoomRevenue": {
+      "FIT": 4132719,
+      "Group": 0
+    },
+    "ADR": 52313,
+    "Rooms": {
+      "Nights": 79,
+      "NoShow": 0,
+      "Cancel": 20,
+      "Booking": 27
+    },
+    "Guests": 92,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 413281
+  },
+  {
+    "Account": "00000009",
+    "AccountName": "호텔타임",
+    "TotalRevenue": 2573375,
+    "RoomRevenue": {
+      "FIT": 2339427,
+      "Group": 0
+    },
+    "ADR": 55701,
+    "Rooms": {
+      "Nights": 42,
+      "NoShow": 0,
+      "Cancel": 11,
+      "Booking": 43
+    },
+    "Guests": 52,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 233948
+  },
+  {
+    "Account": "00000012",
+    "AccountName": "웹투어",
+    "TotalRevenue": 560700,
+    "RoomRevenue": {
+      "FIT": 509726,
+      "Group": 0
+    },
+    "ADR": 63716,
+    "Rooms": {
+      "Nights": 8,
+      "NoShow": 0,
+      "Cancel": 2,
+      "Booking": 5
+    },
+    "Guests": 11,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 50974
+  },
+  {
+    "Account": "00013899",
+    "AccountName": "한진여행사",
+    "TotalRevenue": 517000,
+    "RoomRevenue": {
+      "FIT": 0,
+      "Group": 470000
+    },
+    "ADR": 47000,
+    "Rooms": {
+      "Nights": 10,
+      "NoShow": 0,
+      "Cancel": 1,
+      "Booking": 34
+    },
+    "Guests": 14,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 47000
+  },
+  {
+    "Account": "00008748",
+    "AccountName": "부킹엔진",
+    "TotalRevenue": 352000,
+    "RoomRevenue": {
+      "FIT": 320000,
+      "Group": 0
+    },
+    "ADR": 80000,
+    "Rooms": {
+      "Nights": 4,
+      "NoShow": 2,
+      "Cancel": 1,
+      "Booking": 5
+    },
+    "Guests": 7,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 32000
+  },
+  {
+    "Account": "00008596",
+    "AccountName": "트립비토즈",
+    "TotalRevenue": 70400,
+    "RoomRevenue": {
+      "FIT": 64000,
+      "Group": 0
+    },
+    "ADR": 64000,
+    "Rooms": {
+      "Nights": 1,
+      "NoShow": 0,
+      "Cancel": 0,
+      "Booking": 0
+    },
+    "Guests": 2,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 6400
+  },
+  {
+    "Account": "00014418",
+    "AccountName": "BS투어",
+    "TotalRevenue": 0,
+    "RoomRevenue": {
+      "FIT": 0,
+      "Group": 0
+    },
+    "ADR": 0,
+    "Rooms": {
+      "Nights": 0,
+      "NoShow": 0,
+      "Cancel": 22,
+      "Booking": 112
+    },
+    "Guests": 0,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 0
+  },
+  {
+    "Account": "00015005",
+    "AccountName": "HIS KOREA",
+    "TotalRevenue": 0,
+    "RoomRevenue": {
+      "FIT": 0,
+      "Group": 0
+    },
+    "ADR": 0,
+    "Rooms": {
+      "Nights": 0,
+      "NoShow": 0,
+      "Cancel": 0,
+      "Booking": 86
+    },
+    "Guests": 0,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 0
+  },
+  {
+    "Account": "00014417",
+    "AccountName": "전국관광",
+    "TotalRevenue": 0,
+    "RoomRevenue": {
+      "FIT": 0,
+      "Group": 0
+    },
+    "ADR": 0,
+    "Rooms": {
+      "Nights": 0,
+      "NoShow": 0,
+      "Cancel": 9,
+      "Booking": 0
+    },
+    "Guests": 0,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 0
+  },
+  {
+    "Account": "",
+    "AccountName": "Grand Total",
+    "TotalRevenue": 112992757,
+    "RoomRevenue": {
+      "FIT": 92705168,
+      "Group": 10015445
+    },
+    "ADR": 43767,
+    "Rooms": {
+      "Nights": 2347,
+      "NoShow": 2,
+      "Cancel": 318,
+      "Booking": 1022
+    },
+    "Guests": 3225,
+    "Food": 0,
+    "Beverage": 0,
+    "Other": 0,
+    "SVC": 0,
+    "Tax": 10272144
+  }
+]

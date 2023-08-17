@@ -1,0 +1,959 @@
+[
+  {
+    "Date": "2022-12-01",
+    "Day": "Thu",
+    "FIT": {
+      "Date": "2022-12-01",
+      "Day": "Thu",
+      "Rms": 56,
+      "Ratio": 72.7,
+      "ADR": 36625,
+      "Revenue": 2050985
+    },
+    "Group": {
+      "Date": "2022-12-01",
+      "Day": "Thu",
+      "Rms": 21,
+      "Ratio": 27.3,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-01",
+      "Day": "Thu",
+      "Rms": 77,
+      "Ratio": 100,
+      "ADR": 30727,
+      "RevPAR": 26886,
+      "Revenue": 2365985
+    }
+  },
+  {
+    "Date": "2022-12-02",
+    "Day": "Fri",
+    "FIT": {
+      "Date": "2022-12-02",
+      "Day": "Fri",
+      "Rms": 67,
+      "Ratio": 76.1,
+      "ADR": 52309,
+      "Revenue": 3504719
+    },
+    "Group": {
+      "Date": "2022-12-02",
+      "Day": "Fri",
+      "Rms": 21,
+      "Ratio": 23.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-02",
+      "Day": "Fri",
+      "Rms": 88,
+      "Ratio": 100,
+      "ADR": 43406,
+      "RevPAR": 43406,
+      "Revenue": 3819719
+    }
+  },
+  {
+    "Date": "2022-12-03",
+    "Day": "Sat",
+    "FIT": {
+      "Date": "2022-12-03",
+      "Day": "Sat",
+      "Rms": 66,
+      "Ratio": 75.9,
+      "ADR": 69639,
+      "Revenue": 4596190
+    },
+    "Group": {
+      "Date": "2022-12-03",
+      "Day": "Sat",
+      "Rms": 21,
+      "Ratio": 24.1,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-03",
+      "Day": "Sat",
+      "Rms": 87,
+      "Ratio": 100,
+      "ADR": 56450,
+      "RevPAR": 55809,
+      "Revenue": 4911190
+    }
+  },
+  {
+    "Date": "2022-12-04",
+    "Day": "Sun",
+    "FIT": {
+      "Date": "2022-12-04",
+      "Day": "Sun",
+      "Rms": 46,
+      "Ratio": 68.7,
+      "ADR": 37610,
+      "Revenue": 1730062
+    },
+    "Group": {
+      "Date": "2022-12-04",
+      "Day": "Sun",
+      "Rms": 21,
+      "Ratio": 31.3,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-04",
+      "Day": "Sun",
+      "Rms": 67,
+      "Ratio": 100,
+      "ADR": 30523,
+      "RevPAR": 23239,
+      "Revenue": 2045062
+    }
+  },
+  {
+    "Date": "2022-12-05",
+    "Day": "Mon",
+    "FIT": {
+      "Date": "2022-12-05",
+      "Day": "Mon",
+      "Rms": 45,
+      "Ratio": 68.2,
+      "ADR": 37007,
+      "Revenue": 1665325
+    },
+    "Group": {
+      "Date": "2022-12-05",
+      "Day": "Mon",
+      "Rms": 21,
+      "Ratio": 31.8,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-05",
+      "Day": "Mon",
+      "Rms": 66,
+      "Ratio": 100,
+      "ADR": 30005,
+      "RevPAR": 22504,
+      "Revenue": 1980325
+    }
+  },
+  {
+    "Date": "2022-12-06",
+    "Day": "Tue",
+    "FIT": {
+      "Date": "2022-12-06",
+      "Day": "Tue",
+      "Rms": 50,
+      "Ratio": 70.4,
+      "ADR": 37538,
+      "Revenue": 1876919
+    },
+    "Group": {
+      "Date": "2022-12-06",
+      "Day": "Tue",
+      "Rms": 21,
+      "Ratio": 29.6,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-06",
+      "Day": "Tue",
+      "Rms": 71,
+      "Ratio": 100,
+      "ADR": 30872,
+      "RevPAR": 24908,
+      "Revenue": 2191919
+    }
+  },
+  {
+    "Date": "2022-12-07",
+    "Day": "Wed",
+    "FIT": {
+      "Date": "2022-12-07",
+      "Day": "Wed",
+      "Rms": 57,
+      "Ratio": 73.1,
+      "ADR": 37893,
+      "Revenue": 2159892
+    },
+    "Group": {
+      "Date": "2022-12-07",
+      "Day": "Wed",
+      "Rms": 21,
+      "Ratio": 26.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-07",
+      "Day": "Wed",
+      "Rms": 78,
+      "Ratio": 100,
+      "ADR": 31729,
+      "RevPAR": 28124,
+      "Revenue": 2474892
+    }
+  },
+  {
+    "Date": "2022-12-08",
+    "Day": "Thu",
+    "FIT": {
+      "Date": "2022-12-08",
+      "Day": "Thu",
+      "Rms": 56,
+      "Ratio": 71.8,
+      "ADR": 38812,
+      "Revenue": 2173493
+    },
+    "Group": {
+      "Date": "2022-12-08",
+      "Day": "Thu",
+      "Rms": 22,
+      "Ratio": 28.2,
+      "ADR": 16136,
+      "Revenue": 355000
+    },
+    "Total": {
+      "Date": "2022-12-08",
+      "Day": "Thu",
+      "Rms": 78,
+      "Ratio": 100,
+      "ADR": 32417,
+      "RevPAR": 28733,
+      "Revenue": 2528493
+    }
+  },
+  {
+    "Date": "2022-12-09",
+    "Day": "Fri",
+    "FIT": {
+      "Date": "2022-12-09",
+      "Day": "Fri",
+      "Rms": 65,
+      "Ratio": 74.7,
+      "ADR": 54809,
+      "Revenue": 3562557
+    },
+    "Group": {
+      "Date": "2022-12-09",
+      "Day": "Fri",
+      "Rms": 22,
+      "Ratio": 25.3,
+      "ADR": 16591,
+      "Revenue": 365000
+    },
+    "Total": {
+      "Date": "2022-12-09",
+      "Day": "Fri",
+      "Rms": 87,
+      "Ratio": 100,
+      "ADR": 45144,
+      "RevPAR": 44631,
+      "Revenue": 3927557
+    }
+  },
+  {
+    "Date": "2022-12-10",
+    "Day": "Sat",
+    "FIT": {
+      "Date": "2022-12-10",
+      "Day": "Sat",
+      "Rms": 66,
+      "Ratio": 75.9,
+      "ADR": 68792,
+      "Revenue": 4540256
+    },
+    "Group": {
+      "Date": "2022-12-10",
+      "Day": "Sat",
+      "Rms": 21,
+      "Ratio": 24.1,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-10",
+      "Day": "Sat",
+      "Rms": 87,
+      "Ratio": 100,
+      "ADR": 55808,
+      "RevPAR": 55173,
+      "Revenue": 4855256
+    }
+  },
+  {
+    "Date": "2022-12-11",
+    "Day": "Sun",
+    "FIT": {
+      "Date": "2022-12-11",
+      "Day": "Sun",
+      "Rms": 48,
+      "Ratio": 69.6,
+      "ADR": 41975,
+      "Revenue": 2014804
+    },
+    "Group": {
+      "Date": "2022-12-11",
+      "Day": "Sun",
+      "Rms": 21,
+      "Ratio": 30.4,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-11",
+      "Day": "Sun",
+      "Rms": 69,
+      "Ratio": 100,
+      "ADR": 33765,
+      "RevPAR": 26475,
+      "Revenue": 2329804
+    }
+  },
+  {
+    "Date": "2022-12-12",
+    "Day": "Mon",
+    "FIT": {
+      "Date": "2022-12-12",
+      "Day": "Mon",
+      "Rms": 46,
+      "Ratio": 65.7,
+      "ADR": 38719,
+      "Revenue": 1781085
+    },
+    "Group": {
+      "Date": "2022-12-12",
+      "Day": "Mon",
+      "Rms": 24,
+      "Ratio": 34.3,
+      "ADR": 18125,
+      "Revenue": 435000
+    },
+    "Total": {
+      "Date": "2022-12-12",
+      "Day": "Mon",
+      "Rms": 70,
+      "Ratio": 100,
+      "ADR": 31658,
+      "RevPAR": 25183,
+      "Revenue": 2216085
+    }
+  },
+  {
+    "Date": "2022-12-13",
+    "Day": "Tue",
+    "FIT": {
+      "Date": "2022-12-13",
+      "Day": "Tue",
+      "Rms": 51,
+      "Ratio": 69.9,
+      "ADR": 38995,
+      "Revenue": 1988759
+    },
+    "Group": {
+      "Date": "2022-12-13",
+      "Day": "Tue",
+      "Rms": 22,
+      "Ratio": 30.1,
+      "ADR": 16136,
+      "Revenue": 355000
+    },
+    "Total": {
+      "Date": "2022-12-13",
+      "Day": "Tue",
+      "Rms": 73,
+      "Ratio": 100,
+      "ADR": 32106,
+      "RevPAR": 26634,
+      "Revenue": 2343759
+    }
+  },
+  {
+    "Date": "2022-12-14",
+    "Day": "Wed",
+    "FIT": {
+      "Date": "2022-12-14",
+      "Day": "Wed",
+      "Rms": 44,
+      "Ratio": 67.7,
+      "ADR": 37972,
+      "Revenue": 1670747
+    },
+    "Group": {
+      "Date": "2022-12-14",
+      "Day": "Wed",
+      "Rms": 21,
+      "Ratio": 32.3,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-14",
+      "Day": "Wed",
+      "Rms": 65,
+      "Ratio": 100,
+      "ADR": 30550,
+      "RevPAR": 22565,
+      "Revenue": 1985747
+    }
+  },
+  {
+    "Date": "2022-12-15",
+    "Day": "Thu",
+    "FIT": {
+      "Date": "2022-12-15",
+      "Day": "Thu",
+      "Rms": 50,
+      "Ratio": 70.4,
+      "ADR": 39312,
+      "Revenue": 1965582
+    },
+    "Group": {
+      "Date": "2022-12-15",
+      "Day": "Thu",
+      "Rms": 21,
+      "Ratio": 29.6,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-15",
+      "Day": "Thu",
+      "Rms": 71,
+      "Ratio": 100,
+      "ADR": 32121,
+      "RevPAR": 25916,
+      "Revenue": 2280582
+    }
+  },
+  {
+    "Date": "2022-12-16",
+    "Day": "Fri",
+    "FIT": {
+      "Date": "2022-12-16",
+      "Day": "Fri",
+      "Rms": 60,
+      "Ratio": 74.1,
+      "ADR": 56031,
+      "Revenue": 3361873
+    },
+    "Group": {
+      "Date": "2022-12-16",
+      "Day": "Fri",
+      "Rms": 21,
+      "Ratio": 25.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-16",
+      "Day": "Fri",
+      "Rms": 81,
+      "Ratio": 100,
+      "ADR": 45393,
+      "RevPAR": 41783,
+      "Revenue": 3676873
+    }
+  },
+  {
+    "Date": "2022-12-17",
+    "Day": "Sat",
+    "FIT": {
+      "Date": "2022-12-17",
+      "Day": "Sat",
+      "Rms": 64,
+      "Ratio": 75.3,
+      "ADR": 74905,
+      "Revenue": 4793931
+    },
+    "Group": {
+      "Date": "2022-12-17",
+      "Day": "Sat",
+      "Rms": 21,
+      "Ratio": 24.7,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-17",
+      "Day": "Sat",
+      "Rms": 85,
+      "Ratio": 100,
+      "ADR": 60105,
+      "RevPAR": 58056,
+      "Revenue": 5108931
+    }
+  },
+  {
+    "Date": "2022-12-18",
+    "Day": "Sun",
+    "FIT": {
+      "Date": "2022-12-18",
+      "Day": "Sun",
+      "Rms": 47,
+      "Ratio": 69.1,
+      "ADR": 41246,
+      "Revenue": 1938549
+    },
+    "Group": {
+      "Date": "2022-12-18",
+      "Day": "Sun",
+      "Rms": 21,
+      "Ratio": 30.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-18",
+      "Day": "Sun",
+      "Rms": 68,
+      "Ratio": 100,
+      "ADR": 33140,
+      "RevPAR": 25609,
+      "Revenue": 2253549
+    }
+  },
+  {
+    "Date": "2022-12-19",
+    "Day": "Mon",
+    "FIT": {
+      "Date": "2022-12-19",
+      "Day": "Mon",
+      "Rms": 49,
+      "Ratio": 70,
+      "ADR": 39558,
+      "Revenue": 1938364
+    },
+    "Group": {
+      "Date": "2022-12-19",
+      "Day": "Mon",
+      "Rms": 21,
+      "Ratio": 30,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-19",
+      "Day": "Mon",
+      "Rms": 70,
+      "Ratio": 100,
+      "ADR": 32191,
+      "RevPAR": 25606,
+      "Revenue": 2253364
+    }
+  },
+  {
+    "Date": "2022-12-20",
+    "Day": "Tue",
+    "FIT": {
+      "Date": "2022-12-20",
+      "Day": "Tue",
+      "Rms": 46,
+      "Ratio": 68.7,
+      "ADR": 39772,
+      "Revenue": 1829497
+    },
+    "Group": {
+      "Date": "2022-12-20",
+      "Day": "Tue",
+      "Rms": 21,
+      "Ratio": 31.3,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-20",
+      "Day": "Tue",
+      "Rms": 67,
+      "Ratio": 100,
+      "ADR": 32007,
+      "RevPAR": 24369,
+      "Revenue": 2144497
+    }
+  },
+  {
+    "Date": "2022-12-21",
+    "Day": "Wed",
+    "FIT": {
+      "Date": "2022-12-21",
+      "Day": "Wed",
+      "Rms": 55,
+      "Ratio": 72.4,
+      "ADR": 47439,
+      "Revenue": 2609130
+    },
+    "Group": {
+      "Date": "2022-12-21",
+      "Day": "Wed",
+      "Rms": 21,
+      "Ratio": 27.6,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-21",
+      "Day": "Wed",
+      "Rms": 76,
+      "Ratio": 100,
+      "ADR": 38475,
+      "RevPAR": 33229,
+      "Revenue": 2924130
+    }
+  },
+  {
+    "Date": "2022-12-22",
+    "Day": "Thu",
+    "FIT": {
+      "Date": "2022-12-22",
+      "Day": "Thu",
+      "Rms": 54,
+      "Ratio": 72,
+      "ADR": 47785,
+      "Revenue": 2580364
+    },
+    "Group": {
+      "Date": "2022-12-22",
+      "Day": "Thu",
+      "Rms": 21,
+      "Ratio": 28,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-22",
+      "Day": "Thu",
+      "Rms": 75,
+      "Ratio": 100,
+      "ADR": 38605,
+      "RevPAR": 32902,
+      "Revenue": 2895364
+    }
+  },
+  {
+    "Date": "2022-12-23",
+    "Day": "Fri",
+    "FIT": {
+      "Date": "2022-12-23",
+      "Day": "Fri",
+      "Rms": 60,
+      "Ratio": 74.1,
+      "ADR": 77784,
+      "Revenue": 4667048
+    },
+    "Group": {
+      "Date": "2022-12-23",
+      "Day": "Fri",
+      "Rms": 21,
+      "Ratio": 25.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-23",
+      "Day": "Fri",
+      "Rms": 81,
+      "Ratio": 100,
+      "ADR": 61507,
+      "RevPAR": 56614,
+      "Revenue": 4982048
+    }
+  },
+  {
+    "Date": "2022-12-24",
+    "Day": "Sat",
+    "FIT": {
+      "Date": "2022-12-24",
+      "Day": "Sat",
+      "Rms": 64,
+      "Ratio": 74.4,
+      "ADR": 108633,
+      "Revenue": 6952487
+    },
+    "Group": {
+      "Date": "2022-12-24",
+      "Day": "Sat",
+      "Rms": 22,
+      "Ratio": 25.6,
+      "ADR": 18409,
+      "Revenue": 405000
+    },
+    "Total": {
+      "Date": "2022-12-24",
+      "Day": "Sat",
+      "Rms": 86,
+      "Ratio": 100,
+      "ADR": 85552,
+      "RevPAR": 83608,
+      "Revenue": 7357487
+    }
+  },
+  {
+    "Date": "2022-12-25",
+    "Day": "Sun",
+    "FIT": {
+      "Date": "2022-12-25",
+      "Day": "Sun",
+      "Rms": 64,
+      "Ratio": 74.4,
+      "ADR": 65639,
+      "Revenue": 4200910
+    },
+    "Group": {
+      "Date": "2022-12-25",
+      "Day": "Sun",
+      "Rms": 22,
+      "Ratio": 25.6,
+      "ADR": 16136,
+      "Revenue": 355000
+    },
+    "Total": {
+      "Date": "2022-12-25",
+      "Day": "Sun",
+      "Rms": 86,
+      "Ratio": 100,
+      "ADR": 52976,
+      "RevPAR": 51772,
+      "Revenue": 4555910
+    }
+  },
+  {
+    "Date": "2022-12-26",
+    "Day": "Mon",
+    "FIT": {
+      "Date": "2022-12-26",
+      "Day": "Mon",
+      "Rms": 45,
+      "Ratio": 68.2,
+      "ADR": 52401,
+      "Revenue": 2358044
+    },
+    "Group": {
+      "Date": "2022-12-26",
+      "Day": "Mon",
+      "Rms": 21,
+      "Ratio": 31.8,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-26",
+      "Day": "Mon",
+      "Rms": 66,
+      "Ratio": 100,
+      "ADR": 40501,
+      "RevPAR": 30376,
+      "Revenue": 2673044
+    }
+  },
+  {
+    "Date": "2022-12-27",
+    "Day": "Tue",
+    "FIT": {
+      "Date": "2022-12-27",
+      "Day": "Tue",
+      "Rms": 41,
+      "Ratio": 66.1,
+      "ADR": 48501,
+      "Revenue": 1988528
+    },
+    "Group": {
+      "Date": "2022-12-27",
+      "Day": "Tue",
+      "Rms": 21,
+      "Ratio": 33.9,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-27",
+      "Day": "Tue",
+      "Rms": 62,
+      "Ratio": 100,
+      "ADR": 37154,
+      "RevPAR": 26176,
+      "Revenue": 2303528
+    }
+  },
+  {
+    "Date": "2022-12-28",
+    "Day": "Wed",
+    "FIT": {
+      "Date": "2022-12-28",
+      "Day": "Wed",
+      "Rms": 56,
+      "Ratio": 72.7,
+      "ADR": 56954,
+      "Revenue": 3189433
+    },
+    "Group": {
+      "Date": "2022-12-28",
+      "Day": "Wed",
+      "Rms": 21,
+      "Ratio": 27.3,
+      "ADR": 15000,
+      "Revenue": 315000
+    },
+    "Total": {
+      "Date": "2022-12-28",
+      "Day": "Wed",
+      "Rms": 77,
+      "Ratio": 100,
+      "ADR": 45512,
+      "RevPAR": 39823,
+      "Revenue": 3504433
+    }
+  },
+  {
+    "Date": "2022-12-29",
+    "Day": "Thu",
+    "FIT": {
+      "Date": "2022-12-29",
+      "Day": "Thu",
+      "Rms": 49,
+      "Ratio": 69,
+      "ADR": 55980,
+      "Revenue": 2742998
+    },
+    "Group": {
+      "Date": "2022-12-29",
+      "Day": "Thu",
+      "Rms": 22,
+      "Ratio": 31,
+      "ADR": 16136,
+      "Revenue": 355000
+    },
+    "Total": {
+      "Date": "2022-12-29",
+      "Day": "Thu",
+      "Rms": 71,
+      "Ratio": 100,
+      "ADR": 43634,
+      "RevPAR": 35205,
+      "Revenue": 3097998
+    }
+  },
+  {
+    "Date": "2022-12-30",
+    "Day": "Fri",
+    "FIT": {
+      "Date": "2022-12-30",
+      "Day": "Fri",
+      "Rms": 54,
+      "Ratio": 71.1,
+      "ADR": 75172,
+      "Revenue": 4059304
+    },
+    "Group": {
+      "Date": "2022-12-30",
+      "Day": "Fri",
+      "Rms": 22,
+      "Ratio": 29,
+      "ADR": 16591,
+      "Revenue": 365000
+    },
+    "Total": {
+      "Date": "2022-12-30",
+      "Day": "Fri",
+      "Rms": 76,
+      "Ratio": 100,
+      "ADR": 58215,
+      "RevPAR": 50276,
+      "Revenue": 4424304
+    }
+  },
+  {
+    "Date": "2022-12-31",
+    "Day": "Sat",
+    "FIT": {
+      "Date": "2022-12-31",
+      "Day": "Sat",
+      "Rms": 65,
+      "Ratio": 75.6,
+      "ADR": 95590,
+      "Revenue": 6213333
+    },
+    "Group": {
+      "Date": "2022-12-31",
+      "Day": "Sat",
+      "Rms": 21,
+      "Ratio": 24.4,
+      "ADR": 4545,
+      "Revenue": 95445
+    },
+    "Total": {
+      "Date": "2022-12-31",
+      "Day": "Sat",
+      "Rms": 86,
+      "Ratio": 100,
+      "ADR": 73358,
+      "RevPAR": 71691,
+      "Revenue": 6308778
+    }
+  },
+  {
+    "Date": "Sub Total",
+    "Day": " ",
+    "FIT": {
+      "Date": "Sub Total",
+      "Day": " ",
+      "Rms": 1686,
+      "Ratio": 71.8,
+      "ADR": 54985,
+      "Revenue": 92705168
+    },
+    "Group": {
+      "Date": "Sub Total",
+      "Day": " ",
+      "Rms": 661,
+      "Ratio": 28.2,
+      "ADR": 15152,
+      "Revenue": 10015445
+    },
+    "Total": {
+      "Date": "Sub Total",
+      "Day": " ",
+      "Rms": 2347,
+      "Ratio": 100,
+      "ADR": 43767,
+      "RevPAR": 37654,
+      "Revenue": 102720613
+    }
+  },
+  {
+    "Date": "Total",
+    "Day": " ",
+    "FIT": {
+      "Date": "Total",
+      "Day": " ",
+      "Rms": 1686,
+      "Ratio": 71.8,
+      "ADR": 54985,
+      "Revenue": 92705168
+    },
+    "Group": {
+      "Date": "Total",
+      "Day": " ",
+      "Rms": 661,
+      "Ratio": 28.2,
+      "ADR": 15152,
+      "Revenue": 10015445
+    },
+    "Total": {
+      "Date": "Total",
+      "Day": " ",
+      "Rms": 2347,
+      "Ratio": 100,
+      "ADR": 43767,
+      "RevPAR": 37654,
+      "Revenue": 102720613
+    }
+  }
+]
