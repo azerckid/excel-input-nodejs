@@ -10,8 +10,8 @@ const workbook = xlsx.readFile(
 const firstSheetName = workbook.SheetNames[0]; // 첫 번째 시트 이름 가져오기
 const firstSheet = workbook.Sheets[firstSheetName];
 // 첫번째 시트의 첫번째 행 삭제 (A1:B1)
-delete firstSheet["A1"];
-delete firstSheet["B1"];
+// delete firstSheet["A1"];
+// delete firstSheet["B1"];
 
 const firstSheetJson = xlsx.utils.sheet_to_json(firstSheet);
 
@@ -25,9 +25,9 @@ console.log(secondSheetJson);
 // const fourthSheetJson = xlsx.utils.sheet_to_json(firstSheet, { header: ["A"] });
 // console.log(fourthSheetJson);
 const transformData = (data) => {
-  const headers = data[0];
+  const headers = data[1];
   //   console.log(headers);
-  return data.slice(1).map((row) => {
+  return data.slice(2).map((row) => {
     let transformedRow = {};
     for (let key in headers) {
       // 헤더 값을 사용해 새로운 키 이름을 생성합니다. (예: "FIT Rms" -> "FITRms")
