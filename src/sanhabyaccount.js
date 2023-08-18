@@ -13,21 +13,21 @@ const firstSheetName = workbook.SheetNames[0];
 const firstSheet = workbook.Sheets[firstSheetName];
 
 // 첫번째 시트의 첫번째 행 삭제
-delete firstSheet["A1"];
-delete firstSheet["B1"];
-delete firstSheet["A2"];
-delete firstSheet["B2"];
-delete firstSheet["A3"];
-delete firstSheet["B3"];
-delete firstSheet["A4"];
-delete firstSheet["B4"];
+// delete firstSheet["A1"];
+// delete firstSheet["B1"];
+// delete firstSheet["A2"];
+// delete firstSheet["B2"];
+// delete firstSheet["A3"];
+// delete firstSheet["B3"];
+// delete firstSheet["A4"];
+// delete firstSheet["B4"];
 
 const firstSheetJson = xlsx.utils.sheet_to_json(firstSheet);
 const secondSheetJson = xlsx.utils.sheet_to_json(firstSheet, { header: "A" });
 
 const transformData = (data) => {
-  const headers = data[0];
-  return data.slice(1).map((row) => {
+  const headers = data[2];
+  return data.slice(3).map((row) => {
     let transformedRow = {};
     for (let key in headers) {
       let newKey = headers[key];
