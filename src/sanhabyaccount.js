@@ -1,41 +1,9 @@
 const fs = require("fs");
 const iconv = require("iconv-lite");
 const xlsx = require("xlsx");
+
 const transformData = require("./transformData/sanhaAccountTransform");
-
-const { MongoClient } = require("mongodb");
-
-// MongoDB connection URL - This should be moved to an environment variable or a config file for security and flexibility
-require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
-const url = process.env.MONGODB_URL;
-
-// Database Name
-const dbName = "hotelMaster";
-const collectionName = "sanhaAccount"; // Replace with your desired collection name, e.g., 'rooms', 'bookings', etc.
-
-const insertDataToMongoDB = async (data) => {
-  let client;
-
-  try {
-    client = await MongoClient.connect(url, { useUnifiedTopology: true });
-    console.log("Connected successfully to MongoDB");
-
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
-
-    // Insert the data
-    const result = await collection.insertMany(data);
-    console.log(
-      `Inserted ${result.insertedCount} documents into the ${collectionName} collection`
-    );
-  } catch (err) {
-    console.error("An error occurred while inserting data to MongoDB:", err);
-  } finally {
-    if (client) {
-      client.close();
-    }
-  }
-};
+const insertDataToMongoDB = require("./dataBase/insertDataDB.js");
 
 // 파일을 cp949 인코딩으로 읽고 utf8로 변환합니다.
 const buffer = fs.readFileSync("../inputData/sanhabyaccount20230105.xls");
@@ -61,4 +29,7 @@ fs.writeFileSync(
   "utf8"
 );
 
-insertDataToMongoDB(sanhaAccount);
+// Database Name
+const dbName = "hotelMaster";
+const collectionName = "sanhaAccount"; // Replace with your desired collection name, e.g., 'rooms', 'bookings', etc.
+insertDataToMongoDB(sanhaAccount, dbName, collectionName);

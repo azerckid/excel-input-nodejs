@@ -1,36 +1,7 @@
 const fs = require("fs");
 const xlsx = require("xlsx");
 const lunetAccountTransformData = require("./transformData/lunetAccountTransform.js");
-
-const { MongoClient } = require("mongodb");
-require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
-const url = process.env.MONGODB_URL;
-const DB_NAME = "hotelMaster"; // 사용할 데이터베이스 이름
-const COLLECTION_NAME = "lunetAccount"; // 사용할 컬렉션 이름
-
-const insertDataToMongoDB = async (data) => {
-  let client;
-
-  try {
-    client = await MongoClient.connect(MONGO_URL, { useUnifiedTopology: true });
-    console.log("Connected successfully to MongoDB");
-
-    const db = client.db(DB_NAME);
-    const collection = db.collection(COLLECTION_NAME);
-
-    // Insert the data
-    const result = await collection.insertMany(data);
-    console.log(
-      `Inserted ${result.insertedCount} documents into the ${COLLECTION_NAME} collection`
-    );
-  } catch (err) {
-    console.error("An error occurred while inserting data to MongoDB:", err);
-  } finally {
-    if (client) {
-      client.close();
-    }
-  }
-};
+const insertDataToMongoDB = require("./dataBase/insertDataDB.js");
 
 const workbook = xlsx.readFile(
   "../inputData/lunetAccountSales Products by Account_20230106.xls",
@@ -52,4 +23,6 @@ fs.writeFileSync(
   "utf8"
 );
 
-insertDataToMongoDB(lunetAccountResult);
+const DB_NAME = "hotelMaster"; // 사용할 데이터베이스 이름
+const COLLECTION_NAME = "lunetAccount"; // 사용할 컬렉션 이름
+insertDataToMongoDB(lunetAccountResult, DB_NAME, COLLECTION_NAME);

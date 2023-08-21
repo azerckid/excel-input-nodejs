@@ -1,41 +1,8 @@
 const fs = require("fs");
 const xlsx = require("xlsx");
 const transformData = require("./transformData/sanhaTransform");
+const insertDataToMongoDB = require("./dataBase/insertDataDB.js");
 // const insertDataToMongoDB = require("./insertDataToMongoDB");
-
-const { MongoClient } = require("mongodb");
-
-// MongoDB connection URL - This should be moved to an environment variable or a config file for security and flexibility
-require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
-const url = process.env.MONGODB_URL;
-
-// Database Name
-const dbName = "hotelMaster";
-const collectionName = "sanha"; // Replace with your desired collection name, e.g., 'rooms', 'bookings', etc.
-
-const insertDataToMongoDB = async (data) => {
-  let client;
-
-  try {
-    client = await MongoClient.connect(url, { useUnifiedTopology: true });
-    console.log("Connected successfully to MongoDB");
-
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
-
-    // Insert the data
-    const result = await collection.insertMany(data);
-    console.log(
-      `Inserted ${result.insertedCount} documents into the ${collectionName} collection`
-    );
-  } catch (err) {
-    console.error("An error occurred while inserting data to MongoDB:", err);
-  } finally {
-    if (client) {
-      client.close();
-    }
-  }
-};
 
 const workbook = xlsx.readFile(
   "../inputData/sanha속초 컨피네스 비치 호텔_20230105.xls",
@@ -63,4 +30,6 @@ fs.writeFileSync(
   "utf8"
 );
 
-insertDataToMongoDB(sanhaResult);
+const dbName = "hotelMaster";
+const collectionName = "sanha"; // Replace with your desired collection name, e.g., 'rooms', 'bookings', etc.
+insertDataToMongoDB(sanhaResult, dbName, collectionName);
