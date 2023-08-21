@@ -6,7 +6,7 @@ const { MongoClient } = require("mongodb");
 const MONGO_URL =
   "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT"; // 몽고디비 URL
 const DB_NAME = "hotelMaster"; // 사용할 데이터베이스 이름
-const COLLECTION_NAME = "lunetAccountData"; // 사용할 컬렉션 이름
+const COLLECTION_NAME = "lunetAccount"; // 사용할 컬렉션 이름
 
 const insertDataToMongoDB = async (data) => {
   let client;

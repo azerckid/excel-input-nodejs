@@ -1,10 +1,10 @@
 const fs = require("fs");
 const xlsx = require("xlsx");
 const lunetTransformData = require("./transformData/lunetTrans.js");
+// const insertDataToMongoDB = require("./database/insertDataToMongoDB");
 
 const { MongoClient } = require("mongodb");
 
-// MongoDB connection URL - This should be moved to an environment variable or a config file for security and flexibility
 const url =
   "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
 
