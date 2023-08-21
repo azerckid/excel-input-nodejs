@@ -1,10 +1,10 @@
 const fs = require("fs");
 const xlsx = require("xlsx");
-const lunetAccountTransformData = require("./transformData/lunetAccount.js");
+const lunetAccountTransformData = require("./transformData/lunetAccountTransform.js");
 
 const { MongoClient } = require("mongodb");
-const MONGO_URL =
-  "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT"; // 몽고디비 URL
+require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
+const url = process.env.MONGODB_URL;
 const DB_NAME = "hotelMaster"; // 사용할 데이터베이스 이름
 const COLLECTION_NAME = "lunetAccount"; // 사용할 컬렉션 이름
 

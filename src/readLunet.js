@@ -1,8 +1,8 @@
 const { MongoClient } = require("mongodb");
 
 // MongoDB connection URL
-const url =
-  "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
+require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
+const url = process.env.MONGODB_URL;
 
 // Database and Collection Names
 const dbName = "hotelMaster";

@@ -6,8 +6,8 @@ const transformData = require("./transformData/sanhaTransform");
 const { MongoClient } = require("mongodb");
 
 // MongoDB connection URL - This should be moved to an environment variable or a config file for security and flexibility
-const url =
-  "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
+require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
+const url = process.env.MONGODB_URL;
 
 // Database Name
 const dbName = "hotelMaster";

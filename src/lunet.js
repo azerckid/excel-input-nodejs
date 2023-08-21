@@ -1,13 +1,14 @@
 const fs = require("fs");
 const xlsx = require("xlsx");
+
 const lunetTransformData = require("./transformData/lunetTrans.js");
 // const insertDataToMongoDB = require("./database/insertDataToMongoDB");
 
 const { MongoClient } = require("mongodb");
-
-const url =
-  "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
-
+require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
+const url = process.env.MONGODB_URL;
+// "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
+console.log(process.env);
 // Database Name
 const dbName = "hotelMaster";
 const collectionName = "lunet"; // Replace with your desired collection name, e.g., 'rooms', 'bookings', etc.
@@ -47,7 +48,7 @@ const firstSheet = workbook.Sheets[firstSheetName];
 
 const lunet = xlsx.utils.sheet_to_json(firstSheet, { header: "A" });
 const lunetResult = lunetTransformData(lunet);
-console.log(lunetResult);
+// console.log(lunetResult);
 
 xlsx.writeFile(workbook, "../xlsxResult/lunet.xlsx");
 fs.writeFileSync(
@@ -58,7 +59,7 @@ fs.writeFileSync(
 
 // Your existing code...
 
-console.log(lunetResult);
+// console.log(lunetResult);
 
 // Insert the transformed data to MongoDB
 insertDataToMongoDB(lunetResult);

@@ -1,7 +1,8 @@
 const { MongoClient } = require("mongodb");
 
-const url =
-  "mongodb://admin:1234@svc.sel3.cloudtype.app:31947/?authMechanism=DEFAULT";
+require("dotenv").config({ path: "../.env" }); // .env 파일을 읽어서 process.env에 설정합니다;
+const url = process.env.MONGODB_URL;
+
 const dbName = "hotelMaster";
 const collectionName = "sanhaAccount"; // 필요에 따라 적절한 컬렉션 이름을 사용하세요.
 
